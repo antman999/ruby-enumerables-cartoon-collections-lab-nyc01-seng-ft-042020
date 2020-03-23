@@ -1,20 +1,9 @@
-
-def roll_call_dwarves(s)# code an argument here
-
-#s=["Doc", "Dopey", "Bashful", "Grumpy"]
-new_array = []
-
-#y = 1
-s.each_with_index do |x,y| 
-  
-y += 1 
-puts "#{y}#{x}"
+def roll_call_dwarves(dwarves)
+  result = []
+   dwarves.each_with_index do|array, name|
+   "#{array += 1}. #{name}"
+ end
 end
-
-  # Your code here
-end
-
-  # Your code here
 
 def summon_captain_planet(c)# code an argument here
  c.collect do |cap| cap.capitalize + "!"
