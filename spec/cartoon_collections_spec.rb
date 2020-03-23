@@ -3,9 +3,8 @@ require "spec_helper"
 describe "Cartoon Collections" do
   describe "#roll_call_dwarves" do
     it "prints out the 7 dwarfs in a numbered list" do
-      dwarves = ["Dopey", "Grumpy", "Bashful"]
-
-      output = capture_stdout do
+      dwarves = ["Doc","Dopey", "Grumpy", "Bashful"]
+          output = capture_stdout do
         roll_call_dwarves(dwarves)
       end
 
