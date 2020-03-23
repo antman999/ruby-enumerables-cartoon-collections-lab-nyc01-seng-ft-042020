@@ -1,7 +1,7 @@
 def roll_call_dwarves(d)
   result = []
    d.each_with_index do|array, name|
-   puts  "#{array+=1} #{name}"
+   puts  "#{array.size} #{name}"
  end
 end
 
